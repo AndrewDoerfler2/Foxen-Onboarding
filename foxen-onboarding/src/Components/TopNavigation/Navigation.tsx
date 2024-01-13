@@ -32,19 +32,19 @@ function TopNavigationBar() {
                                         title="Best Practices"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                                     >
-                                        <NavDropdown.Item href="logging-best-practices">Logging</NavDropdown.Item>
-                                        <NavDropdown.Item href="developer-syntax-guidelines">Developer Syntax Guidelines</NavDropdown.Item>
-                                        <NavDropdown.Item href="git-branching">Git Branching</NavDropdown.Item>
+                                        <NavDropdown.Item href="/logging-best-practices">Logging</NavDropdown.Item>
+                                        <NavDropdown.Item href="/developer-syntax-guidelines">Developer Syntax Guidelines</NavDropdown.Item>
+                                        <NavDropdown.Item href="/git-branching">Git Branching</NavDropdown.Item>
                                     </NavDropdown>
                                     <NavDropdown
                                         title="Documentation"
                                         id={`offcanvasNavbarDropdown-expand-${expand}`}
                                     >
-                                        <NavDropdown.Item href="data-ingest-flow">Data Ingestion Flow</NavDropdown.Item>
-                                        <NavDropdown.Item href="domain-model">Domain Model</NavDropdown.Item>
-                                        <NavDropdown.Item href="integration-process">Integration Process</NavDropdown.Item>
+                                        <NavDropdown.Item href="/data-ingest-flow">Data Ingestion Flow</NavDropdown.Item>
+                                        <NavDropdown.Item href="/domain-model">Domain Model</NavDropdown.Item>
+                                        <NavDropdown.Item href="/integration-process">Integration Process</NavDropdown.Item>
                                         <NavDropdown.Divider />
-                                        <NavDropdown.Item href="org-chart">
+                                        <NavDropdown.Item href="/org-chart">
                                             Organization Chart
                                         </NavDropdown.Item>
                                     </NavDropdown>

@@ -19,10 +19,10 @@ function App() {
           <BrowserRouter basename='/Foxen-Onboarding'>
             <Routes>
               <Route path="/" element={<LandingPage />} />
-              <Route path="org-chart" element={<OrgChartPage />} />
-              <Route path="helpful-links" element={<HelpfulLinksPage />} />
-              <Route path="data-ingest-flow" element={<DataIngestFlowPage />} />
-              <Route path="domain-model" element={<DomainModelPage />} />
+              <Route path="/org-chart" element={<OrgChartPage />} />
+              <Route path="/helpful-links" element={<HelpfulLinksPage />} />
+              <Route path="/data-ingest-flow" element={<DataIngestFlowPage />} />
+              <Route path="/domain-model" element={<DomainModelPage />} />
             </Routes>
           </BrowserRouter>
         </PageContainer>
